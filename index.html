@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alma Indumentaria Femenina</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome para Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Archivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. HEADER -->
+    <header>
+        <div class="logo">ALMA</div>
+        <nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Colección</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- 2. HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <span class="section-tag">Nueva Colección 2026</span>
+            <h1>Elegancia y comodidad en cada detalle</h1>
+            <p>Descubrir prendas diseñadas para acompañar tu día con estilo, sofisticación y un calce perfecto hecho a medida para vos.</p>
+            <a href="#productos" class="btn">Ver Colección</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1000&auto=format&fit=crop" alt="Indumentaria Femenina Alma">
+        </div>
+    </section>
+
+    <!-- 3. SOBRE NOSOTROS -->
+    <section id="nosotros" class="about">
+        <div class="about-img">
+            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1000&auto=format&fit=crop" alt="Showroom Alma Indumentaria">
+        </div>
+        <div class="about-text">
+            <span class="section-tag">Sobre Nosotros</span>
+            <h2>Diseño consciente, atemporal y con identidad propia</h2>
+            <p>En <strong>Alma</strong> creamos indumentaria pensando en mujeres reales que buscan versatilidad sin resignar diseño. Cada prenda es seleccionada y confeccionada bajo estrictos estándares de calidad textil.</p>
+            <p>Nuestro propósito es ofrecerte piezas duraderas que armonicen con tu estilo personal, impulsando una moda más cercana, transparente y detallista.</p>
+            <a href="#contacto" class="btn" style="margin-top: 1rem;">Conocé Nuestro Showroom</a>
+        </div>
+    </section>
+
+    <!-- 4. SERVICIOS O PRODUCTOS -->
+    <section id="productos" class="products">
+        <span class="section-tag">Destacados</span>
+        <h2>Nuestra Colección</h2>
+        <p>Explorá las líneas principales de la temporada diseñadas para elevar tus outfits diarios y de ocasión.</p>
+        
+        <div class="product-grid">
+            <!-- Producto 1 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=80&w=800&auto=format&fit=crop" alt="Vestidos y Conjuntos">
+                <div class="product-info">
+                    <h3>Vestidos & Conjuntos</h3>
+                    <p>Cortes fluidos y texturas suaves pensadas para destacar tu silueta con total comodidad.</p>
+                    <div class="product-footer">
+                        <span class="price">$48.900</span>
+                        <a href="#contacto" class="btn-outline">Consultar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?q=80&w=800&auto=format&fit=crop" alt="Tejidos y Abrigos">
+                <div class="product-info">
+                    <h3>Tejidos & Abrigos</h3>
+                    <p>Hilados nobles, tramas abrigadas y terminaciones impecables para los días frescos.</p>
+                    <div class="product-footer">
+                        <span class="price">$65.000</span>
+                        <a href="#contacto" class="btn-outline">Consultar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?q=80&w=800&auto=format&fit=crop" alt="Accesorios y Calzado">
+                <div class="product-info">
+                    <h3>Accesorios & Detalles</h3>
+                    <p>El toque final ideal para completar cualquier look con sofisticación y tendencia.</p>
+                    <div class="product-footer">
+                        <span class="price">$22.500</span>
+                        <a href="#contacto" class="btn-outline">Consultar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. BENEFICIOS -->
+    <section id="beneficios" class="benefits">
+        <div class="benefits-grid">
+            <div class="benefit-item">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>Envíos a todo el país</h3>
+                <p>Llegamos a cada rincón con entregas rápidas y seguras.</p>
+            </div>
+            <div class="benefit-item">
+                <i class="fa-solid fa-credit-card"></i>
+                <h3>Cuotas sin interés</h3>
+                <p>Aprovechá financiación con todas las tarjetas bancarias.</p>
+            </div>
+            <div class="benefit-item">
+                <i class="fa-solid fa-gem"></i>
+                <h3>Calidad Garantizada</h3>
+                <p>Telas seleccionadas y duraderas de confección nacional.</p>
+            </div>
+            <div class="benefit-item">
+                <i class="fa-solid fa-headset"></i>
+                <h3>Asesoramiento</h3>
+                <p>Te ayudamos a encontrar tu talle ideal y combinar tus prendas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. CONTACTO -->
+    <section id="contacto" class="contact">
+        <div class="contact-info">
+            <span class="section-tag">Comunicate</span>
+            <h2>¿Tenés alguna consulta o querés visitarnos?</h2>
+            <p>Estamos para atenderte. Escribinos a través del formulario o comunicate por nuestras vías de contacto habituales.</p>
+            
+            <div class="info-detail">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h4>Showroom</h4>
+                    <p>Quilmes Centro, Buenos Aires</p>
+                </div>
+            </div>
+
+            <div class="info-detail">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                    <h4>Correo Electrónico</h4>
+                    <p>contacto@almaindumentaria.com</p>
+                </div>
+            </div>
+
+            <div class="info-detail">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <h4>WhatsApp</h4>
+                    <p>+54 9 11 0000-0000</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form-container">
+            <!-- 
+              CONFIGURACIÓN DE FORMSUBMIT:
+              Sustituye "tu-correo@ejemplo.com" por tu dirección real de correo electrónico.
+            -->
+            <form action="https://formsubmit.co/biancaestudios99@gmail.com" method="POST">
+                
+                <input type="hidden" name="_subject" value="Nuevo mensaje desde la web de Alma Indumentaria">
+                <input type="hidden" name="_captcha" value="false">
+
+                <div class="form-group">
+                    <label for="name">Nombre completo *</label>
+                    <input type="text" id="name" name="name" class="form-control" required placeholder="Tu nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico *</label>
+                    <input type="email" id="email" name="email" class="form-control" required placeholder="tu@correo.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Asunto *</label>
+                    <input type="text" id="subject" name="subject" class="form-control" required placeholder="Consulta sobre talles / envíos">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensaje *</label>
+                    <textarea id="message" name="message" class="form-control" required placeholder="Escribinos tu consulta..."></textarea>
+                </div>
+
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 7. FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3 class="serif-font">ALMA</h3>
+                <p>Indumentaria femenina creada con atención en cada detalle y compromiso con el diseño local.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Enlaces Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#productos">Colección</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Atención al Cliente</h3>
+                <ul class="footer-links">
+                    <li><a href="#contacto">Guía de talles</a></li>
+                    <li><a href="#contacto">Políticas de cambio</a></li>
+                    <li><a href="#contacto">Seguimiento de envíos</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Alma Indumentaria Femenina. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script sencillo para el menú hamburguesa en celulares -->
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
